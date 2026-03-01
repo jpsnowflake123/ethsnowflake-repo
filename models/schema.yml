@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_contracts
+    description: Stag contracts Tables
+    columns:
+      - name: BLOCK_HASH
+        description: Block Hash column
+        tests:
+          - not_null
+          - unique
+
+      - name: ADDRESS
+        description: > 
+            address column test multiline 
+            descriptions
+        tests:
+          - not_null
+          - unique
+
+      - name: BLOCK_NUMBER
+        description: Block number
+        tests:
+          - not_null
+          - unique

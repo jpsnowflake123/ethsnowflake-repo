@@ -1,0 +1,11 @@
+packages:
+  - name: codegen
+    package: dbt-labs/codegen
+    version: 0.14.0
+  - git: https://{{env_var('ETH_PATH')}}@github.com/jpsnowflake123/dbt-external-tables.git
+    name: dbt_external_tables
+    revision: 2877d68d9278065f5e78f9602009d4850f168a86
+  - name: dbt_utils
+    package: dbt-labs/dbt_utils
+    version: 1.3.3
+sha1_hash: e82c2ab5b15983e52352e69f9af4e2ab6211ba0d
