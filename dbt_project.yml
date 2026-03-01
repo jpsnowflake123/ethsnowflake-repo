@@ -5,7 +5,7 @@ version: '1.0.0'
 #profile info
 profile: 'ethsnowflake'
 
-
+#Model locations
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
